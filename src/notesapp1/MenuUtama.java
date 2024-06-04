@@ -39,6 +39,7 @@ public class MenuUtama extends javax.swing.JFrame {
         Hapus = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         IsiCatatan = new javax.swing.JTable();
+        Add1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -72,6 +73,13 @@ public class MenuUtama extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(IsiCatatan);
 
+        Add1.setText("Ubah");
+        Add1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Add1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -85,6 +93,8 @@ public class MenuUtama extends javax.swing.JFrame {
                 .addComponent(Add)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(Hapus)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(Add1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jScrollPane2)
         );
@@ -96,7 +106,8 @@ public class MenuUtama extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Add)
-                    .addComponent(Hapus))
+                    .addComponent(Hapus)
+                    .addComponent(Add1))
                 .addGap(41, 41, 41)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(100, 100, 100))
@@ -128,6 +139,10 @@ public class MenuUtama extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Pilih catatan yang ingin dihapus.");
         }
     }//GEN-LAST:event_HapusActionPerformed
+
+    private void Add1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Add1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Add1ActionPerformed
 
     public void loadData() {
         DefaultTableModel model = (DefaultTableModel) IsiCatatan.getModel();
@@ -167,6 +182,7 @@ public class MenuUtama extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Add;
+    private javax.swing.JButton Add1;
     private javax.swing.JButton Hapus;
     private javax.swing.JTable IsiCatatan;
     private javax.swing.JLabel jLabel1;
