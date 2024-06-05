@@ -158,10 +158,11 @@ public class UbahCatatan extends javax.swing.JFrame {
         String catatan = IsiCatatan.getText();
 
         try (Connection conn = koneksi.getKoneksi()) {
-            String query = "INSERT INTO notes (judul, catatan) VALUES (?, ?)";
+            String query = "UPDATE notes SET judul=?, catatan=? WHERE id=?";
             PreparedStatement pstmt = conn.prepareStatement(query);
             pstmt.setString(1, judul);
             pstmt.setString(2, catatan);
+            pstmt.setInt(3, id);
             pstmt.executeUpdate();
             menuUtama.loadData();
             this.dispose();
