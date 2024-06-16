@@ -16,6 +16,7 @@ import java.awt.*;
 /**
  *
  * @author briya
+ * Fitur Menambah Catatan atau Create
  */
 public class AddCatatan extends javax.swing.JFrame {
 

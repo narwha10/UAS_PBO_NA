@@ -13,6 +13,7 @@ import java.sql.*;
 /**
  *
  * @author briya
+ * Fitur Tampilan Catatan atau Read
  */
 public class MenuUtama extends javax.swing.JFrame {
 

@@ -11,6 +11,7 @@ public class koneksi {
     private static final String USER = "root"; // Replace with your MySQL username
     private static final String PASSWORD = ""; // Replace with your MySQL password
 
+     // untuk mendapatkan koneksi ke database
     public static Connection getKoneksi() {
         Connection koneksi = null;
         try {

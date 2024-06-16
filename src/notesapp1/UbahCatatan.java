@@ -16,6 +16,7 @@ import java.awt.*;
 /**
  *
  * @author briya
+ * Fitur Mengubah Catatan
  */
 public class UbahCatatan extends javax.swing.JFrame {
 
