@@ -15,10 +15,10 @@ Techstack :
 - Java Swing
 
 Petunjuk Instalasi Aplikasi :
-1.Copy link github pada bagian code
-2.Masuk ke git command lalu clone repositori berdasar link yang sudah di copy
-3.Import file sql dan masukkan pada database laragon
-4.Jalankan project di netbeans
+1. Copy link github pada bagian code
+2. Masuk ke git command lalu clone repositori berdasar link yang sudah di copy
+3. Import file sql dan masukkan pada database laragon
+4. Jalankan project di netbeans
 
 
 Link Video Penjelasan :
