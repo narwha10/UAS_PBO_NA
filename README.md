@@ -27,23 +27,23 @@ https://youtu.be/10OQnVktYQ8
 Cara Penggunaan :
 
   + LOGIN PAGE
-Pada bagian ini pengguna bisa memasukkan username 'user' dan password 'user'.
-
+       
+  Pada bagian ini pengguna bisa memasukkan username 'user' dan password 'user'.
   ![image (3)](https://github.com/narwha10/UAS_PBO_NA/assets/114417476/66cfb5cc-d81e-479c-9940-293e79019741)
 
   + HALAMAN HOME
-Pada halaman ini user bisa melihat catatan apa saja yang sudah di dibuat oleh user, lalu user juga bisa membuat, mengedit dan menghapus catatan yang ada.
-
+    
+  Pada halaman ini user bisa melihat catatan apa saja yang sudah di dibuat oleh user, lalu user juga bisa membuat, mengedit dan menghapus catatan yang ada.
   ![image](https://github.com/narwha10/UAS_PBO_NA/assets/114417476/320846cf-416a-418d-8420-b459dc180ddd)
 
   + HALAMAN TAMBAH CATATAN
-Pada halaman ini, user menentukan judul serta isi dari catatan yang mau ditambah. 
-
+    
+  Pada halaman ini, user menentukan judul serta isi dari catatan yang mau ditambah.
   ![image (1)](https://github.com/narwha10/UAS_PBO_NA/assets/114417476/da797da2-b4cb-4f67-9fc2-bc86c01911fd)
 
   + HALAMAN UPDATE CATATAN
-Pada halaman ini, user menentukan bagian dari catatan yang mau di ubah.
-
+    
+  Pada halaman ini, user menentukan bagian dari catatan yang mau di ubah.
   ![image (2)](https://github.com/narwha10/UAS_PBO_NA/assets/114417476/df759251-b2d0-40fa-adc5-58ed13f88a9c)
 
 
